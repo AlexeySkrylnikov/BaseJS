@@ -38,7 +38,7 @@
 
         function addStar(element, cls) {
             element.classList.add(cls);
-            var el = element.previousElementSibling;
+            let el = element.previousElementSibling;
             while (el) {
                 el.classList.add(cls);
                 el = el.previousElementSibling;
@@ -47,7 +47,7 @@
 
         function removeStar(element, cls) {
             element.classList.remove(cls);
-            var el = element.previousElementSibling;
+            let el = element.previousElementSibling;
             while (el) {
                 el.classList.remove(cls);
                 el = el.previousElementSibling;
